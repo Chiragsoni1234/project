@@ -11,7 +11,7 @@
 //   const handleSubmit = async (e) => {
 //     e.preventDefault();
 //     try {
-//       const { data } = await API.post("http://localhost:5000/api/auth/login", form);
+//       const { data } = await API.post("https://project-eta-self-45.vercel.app/api/auth/login", form);
 //       localStorage.setItem("token", data.token);
 //       navigate("/scan");
 //     } catch {

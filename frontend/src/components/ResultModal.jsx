@@ -27,7 +27,7 @@ export default function ResultModal({ item, onClose }) {
         {/* Image */}
         {item.imageUrl && (
           <img
-            src={`http://localhost:5000/${item.imageUrl}`}
+            src={`https://project-eta-self-45.vercel.app/${item.imageUrl}`}
             alt={item.productName}
             className="rounded-lg mb-4 mx-auto max-h-48 object-cover"
           />

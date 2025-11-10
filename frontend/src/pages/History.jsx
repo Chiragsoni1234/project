@@ -16,7 +16,7 @@ export default function History() {
     const fetchHistory = async () => {
       try {
         const token = localStorage.getItem("token");
-        const res = await axios.get("http://localhost:5000/api/products/history", {
+        const res = await axios.get("https://project-eta-self-45.vercel.app/api/products/history", {
           headers: { Authorization: `Bearer ${token}` },
         });
         setHistory(res.data || []);
@@ -62,7 +62,7 @@ export default function History() {
 
               {item.imageUrl && (
                 <img
-                  src={`http://localhost:5000/${item.imageUrl}`}
+                  src={`https://project-eta-self-45.vercel.app/${item.imageUrl}`}
                   alt="product"
                   className="w-32 h-32 object-cover mx-auto rounded-lg shadow-md mb-3"
                 />

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // Backend base URL
+  baseURL: "https://project-eta-self-45.vercel.app/api", // Backend base URL
 });
 
 // Add Authorization token automatically

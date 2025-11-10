@@ -23,7 +23,7 @@
 
 //       const token = localStorage.getItem("token");
 //       const res = await axios.post(
-//         "http://localhost:5000/api/products/scan",
+//         "https://project-eta-self-45.vercel.app/api/products/scan",
 //         formData,
 //         {
 //           headers: {
@@ -120,7 +120,7 @@
 
 //       const token = localStorage.getItem("token");
 //       const res = await axios.post(
-//         "http://localhost:5000/api/products/scan",
+//         "https://project-eta-self-45.vercel.app/api/products/scan",
 //         formData,
 //         {
 //           headers: {
@@ -217,7 +217,7 @@ export default function Scan() {
 
       const token = localStorage.getItem("token");
       const res = await axios.post(
-        "http://localhost:5000/api/products/scan",
+        "https://project-eta-self-45.vercel.app/api/products/scan",
         formData,
         {
           headers: {
